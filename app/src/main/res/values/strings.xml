@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SamanthaApp</string>
+    <string name="hello_samantha_text">Hola Samantha</string>
+    <string name="init_button">Iniciar</string>
+    <string name="my_profile_text">Mi perfil</string>
+    <string name="full_name_text_id">Nombre completo</string>
+    <string name="email_text_id">Correo electrónico</string>
+    <string name="title_text">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</string>
+    <string name="body_text">quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</string>
+    <string name="change_button_text">CAMBIAR NOMBRE</string>
+    <string name="my_name_text">NOMBRE</string>
+    <string name="animation_text">MI ANIMACIÓN</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205765498797",
+    "project_id": "samanthaappid",
+    "storage_bucket": "samanthaappid.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205765498797:android:e02c756201bcc9cc267324",
+        "android_client_info": {
+          "package_name": "com.kevinhomorales.samanthaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvRNY3HWozLg6Sy5UqZFkHdF_zzyDpanM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
