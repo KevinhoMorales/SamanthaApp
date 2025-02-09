@@ -15,12 +15,20 @@
         android:theme="@style/Theme.SamanthaApp"
         tools:targetApi="31">
         <activity
+            android:name=".adapters.customadapter.CustomAdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adapters.simpleadapter.SimpleAdapterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firebase.FirebaseActivity"
+            android:exported="false" />
+        <activity
             android:name=".lottie.AnimationActivity"
             android:exported="false" />
         <activity
             android:name=".reactive.view.ReactiveActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".main.view.MainActivity"
             android:exported="true">
@@ -35,7 +43,7 @@
             android:exported="false" />
         <activity
             android:name=".sample.view.SampleActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -8,11 +8,14 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
+import com.kevinhomorales.samanthaapp.adapters.customadapter.CustomAdapterActivity
+import com.kevinhomorales.samanthaapp.adapters.simpleadapter.SimpleAdapterActivity
 import com.kevinhomorales.samanthaapp.main.view.adapter.ItemAdapter
 import com.kevinhomorales.samanthaapp.main.view.adapter.OnPostClickListener
 import com.kevinhomorales.samanthaapp.profile.view.ProfileActivity
 import com.kevinhomorales.samanthaapp.networkmanager.RetrofitServiceFactory
 import com.kevinhomorales.samanthaapp.databinding.ActivityMainBinding
+import com.kevinhomorales.samanthaapp.firebase.FirebaseActivity
 import com.kevinhomorales.samanthaapp.lottie.AnimationActivity
 import com.kevinhomorales.samanthaapp.sample.model.posts.PostsItem
 import kotlinx.coroutines.launch
@@ -70,13 +73,31 @@ open class MainActivity : AppCompatActivity(), OnPostClickListener {
 
     private fun setUpActions() {
         binding.profileIconId.setOnClickListener {
-            openProfileView()
+//            openProfileView()
+//            openFirebaseView()
+//            openSimpleAdapterView()
+            openCustomAdapterView()
         }
     }
 
     private fun openProfileView() {
         val profileIntent = Intent(this, ProfileActivity::class.java)
         startActivity(profileIntent)
+    }
+
+    private fun openFirebaseView() {
+        val firebaseIntent = Intent(this, FirebaseActivity::class.java)
+        startActivity(firebaseIntent)
+    }
+
+    private fun openSimpleAdapterView() {
+        val simpleAdapterIntent = Intent(this, SimpleAdapterActivity::class.java)
+        startActivity(simpleAdapterIntent)
+    }
+
+    private fun openCustomAdapterView() {
+        val customAdapterIntent = Intent(this, CustomAdapterActivity::class.java)
+        startActivity(customAdapterIntent)
     }
 
     private fun openAnimationView() {

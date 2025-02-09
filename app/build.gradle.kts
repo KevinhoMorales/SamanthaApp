@@ -40,6 +40,9 @@ android {
 }
 
 dependencies {
+//    implementation(libs.firebase.analytics.ktx)
+//    implementation(libs.firebase.crashlytics.ktx)
+    implementation(libs.firebase.firestore.ktx)
     implementation(libs.lottie)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.converter.gson.v240)
